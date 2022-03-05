@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #221414;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/img/fondo-2.webp');
+    background-position: center; 
+}
+header .foto{
+    margin-top: 30px;
+}
+header .foto img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1.5px solid #ee8f8f;
+   
+}
+header .title{
+    margin: auto;
+    padding: 30px 0;
+}
+header .title span{
+    text-decoration: underline;
+
+}
+/* ------------title--------- */
+.title h1{
+    font-family: 'roboto' Arial;
+    font-family: 'roboto', Arial;
+    font-weight: 500;
+    color: #aad1f3;
+}
+/* --------------nav-------- */
+nav{
+    width: 100%;
+    height:auto;
+    background-color: #221414;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 30px;
+
+}
+nav section{
+    padding: 20px 0px;
+}
+nav section ul{
+    list-style: none;
+    text-align: center;
+}
+nav section ul li{
+    display:inline-block;
+    padding: 5px 10px;
+    background-color: #cddff0;
+    border-radius: 5px;
+    
+}
+nav section ul li a{
+    text-decoration: none;
+    text-transform:capitalize;
+    color: #000000;
+    font-family: 'roboto', Arial;
+}
+nav section ul li:hover{
+    display:inline-block;
+    padding: 5px 10px;
+    background-color: #2682d3;
+    border-radius: 5px;
+    
+}
+nav section ul li a:hover{
+    text-decoration: none;
+    text-transform:capitalize;
+    color: #ffffff;
+    font-family: 'roboto', Arial;
+}
+/* --------------main----------- */
+main{
+    width: 90%;
+    height:auto;
+    background-color: #c0a2a2;
+    margin: auto;
+}
+main section article{
+    padding: 30px 25px;
+    margin-top: -0px;
+    
+}
+
+main .title-article{
+    text-transform: capitalize;
+    font-size: 1.8em;
+    text-decoration:underline;
+    font-family: 'roboto', Arial;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+main ul {
+    padding: 0px 25px;
+}
+span{
+    font-size: 20px;
+    font-family: 'roboto', Arial;
+    font-weight: 500;
+
+}
+main ul li p{
+    display: inline;
+    text-transform:capitalize;
+    font-family: 'roboto', Arial;
+    font-weight: 300;
+
+}
+section article .estudios{
+    text-transform:capitalize;
+    font-family: 'roboto', Arial;
+    font-weight: 300;
+
+
+}
+section article .experiencia p{
+    display: inline;
+    text-transform:capitalize;
+    font-family: 'roboto', Arial;
+    font-weight: 300;
+}
+
+/* ----------footer------- */
+
+footer{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #c0a2a2;
+}
+footer h3{
+    text-transform:capitalize;
+    font-family: 'roboto', Arial;
+    font-weight:500;
+}
+footer, .iconos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer, .iconos-footer img{
+    padding-left: 30px;
+}
